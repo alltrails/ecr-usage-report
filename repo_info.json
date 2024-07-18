@@ -1,22 +1,2505 @@
 [
     {
-        "image_count": 1,
-        "lifecycle_policy": null,
-        "name": "new",
-        "tags": [
+        "image_count": 8013,
+        "lifecycle_policy": [
             {
-                "Key": "name",
-                "Value": "temp"
-            },
-            {
-                "Key": "env",
-                "Value": "dev"
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
             }
         ],
-        "total_size_bytes": 78531277,
-        "total_size_gb": 0.07313795108348131,
-        "total_size_mb": 74.89326190948486,
-        "total_size_tb": 7.142378035496222e-05
+        "name": "alltrails-rails",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 15358713333458,
+        "total_size_gb": 14303.916444497183,
+        "total_size_mb": 14647210.439165115,
+        "total_size_tb": 13.96866840282928
+    },
+    {
+        "image_count": 8829,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 1165861439970,
+        "total_size_gb": 1085.7930779177696,
+        "total_size_mb": 1111852.111787796,
+        "total_size_tb": 1.0603448026540718
+    },
+    {
+        "image_count": 483,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "dsr-internal",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 233751041147,
+        "total_size_gb": 217.6976214600727,
+        "total_size_mb": 222922.36437511444,
+        "total_size_tb": 0.21259533345710224
+    },
+    {
+        "image_count": 1176,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "explore-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 182675443435,
+        "total_size_gb": 170.1297642989084,
+        "total_size_mb": 174212.8786420822,
+        "total_size_tb": 0.16614234794815275
+    },
+    {
+        "image_count": 677,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-weather-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 181423661005,
+        "total_size_gb": 168.9639510633424,
+        "total_size_mb": 173019.0858888626,
+        "total_size_tb": 0.1650038584602953
+    },
+    {
+        "image_count": 272,
+        "lifecycle_policy": null,
+        "name": "bq-maintenance-pipelines",
+        "tags": [],
+        "total_size_bytes": 170087104364,
+        "total_size_gb": 158.40595994517207,
+        "total_size_mb": 162207.7029838562,
+        "total_size_tb": 0.1546933202589571
+    },
+    {
+        "image_count": 759,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-geo-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 133327192928,
+        "total_size_gb": 124.17062458395958,
+        "total_size_mb": 127150.71957397461,
+        "total_size_tb": 0.12126037557027303
+    },
+    {
+        "image_count": 563,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "identity-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 117940590924,
+        "total_size_gb": 109.84073479101062,
+        "total_size_mb": 112476.91242599487,
+        "total_size_tb": 0.1072663425693463
+    },
+    {
+        "image_count": 870,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "belay",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 116484400585,
+        "total_size_gb": 108.48455185536295,
+        "total_size_mb": 111088.18109989166,
+        "total_size_tb": 0.10594194517125288
+    },
+    {
+        "image_count": 273,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "gpt-plugin",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 105748697068,
+        "total_size_gb": 98.48614881560206,
+        "total_size_mb": 100849.81638717651,
+        "total_size_tb": 0.09617787970273639
+    },
+    {
+        "image_count": 269,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-dem-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 102465427542,
+        "total_size_gb": 95.4283657874912,
+        "total_size_mb": 97718.64656639099,
+        "total_size_tb": 0.09319176346434688
+    },
+    {
+        "image_count": 29,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "photo-quality-score",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 95862618535,
+        "total_size_gb": 89.27902070339769,
+        "total_size_mb": 91421.71720027924,
+        "total_size_tb": 0.08718654365566181
+    },
+    {
+        "image_count": 332,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "braze-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 84992403064,
+        "total_size_gb": 79.15534364432096,
+        "total_size_mb": 81055.07189178467,
+        "total_size_tb": 0.07730014027765719
+    },
+    {
+        "image_count": 820,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "monolith-nginx",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 65327746375,
+        "total_size_gb": 60.841204947791994,
+        "total_size_mb": 62301.393866539,
+        "total_size_tb": 0.05941523920682812
+    },
+    {
+        "image_count": 51,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-gha-base",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 57551016600,
+        "total_size_gb": 53.59856095165014,
+        "total_size_mb": 54884.926414489746,
+        "total_size_tb": 0.05234234467934584
+    },
+    {
+        "image_count": 234,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "blazes",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 52923099913,
+        "total_size_gb": 49.28847766760737,
+        "total_size_mb": 50471.401131629944,
+        "total_size_tb": 0.04813327897227282
+    },
+    {
+        "image_count": 107,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "dataform-scheduler",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 47803671405,
+        "total_size_gb": 44.52063832897693,
+        "total_size_mb": 45589.133648872375,
+        "total_size_tb": 0.04347718586814153
+    },
+    {
+        "image_count": 20,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "photo-similarity",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 39744735738,
+        "total_size_gb": 37.01516961492598,
+        "total_size_mb": 37903.533685684204,
+        "total_size_tb": 0.03614762657707615
+    },
+    {
+        "image_count": 92,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "osm-daylight-athena-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 33773378350,
+        "total_size_gb": 31.45390967838466,
+        "total_size_mb": 32208.803510665894,
+        "total_size_tb": 0.03071670867029752
+    },
+    {
+        "image_count": 77,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "lambda-photo-labeling",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 21855060914,
+        "total_size_gb": 20.354111598804593,
+        "total_size_mb": 20842.610277175903,
+        "total_size_tb": 0.01987706210820761
+    },
+    {
+        "image_count": 51,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "appsflyer-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 21173838687,
+        "total_size_gb": 19.719673960469663,
+        "total_size_mb": 20192.946135520935,
+        "total_size_tb": 0.019257494102021155
+    },
+    {
+        "image_count": 40,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "analytics-anomaly-detection",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 20860648655,
+        "total_size_gb": 19.42799301352352,
+        "total_size_mb": 19894.264845848083,
+        "total_size_tb": 0.01897264942726906
+    },
+    {
+        "image_count": 64,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "lambda-amplitude-kinesis-integrations",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 20633740730,
+        "total_size_gb": 19.216668540611863,
+        "total_size_mb": 19677.868585586548,
+        "total_size_tb": 0.018766277871691273
+    },
+    {
+        "image_count": 173,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-auth-token-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 20170059719,
+        "total_size_gb": 18.784831947647035,
+        "total_size_mb": 19235.667914390564,
+        "total_size_tb": 0.018344562448874058
+    },
+    {
+        "image_count": 20,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "osm-bigquery-to-mapbox",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 18004813132,
+        "total_size_gb": 16.768288921564817,
+        "total_size_mb": 17170.727855682373,
+        "total_size_tb": 0.016375282149965642
+    },
+    {
+        "image_count": 36,
+        "lifecycle_policy": null,
+        "name": "github-to-bigquery",
+        "tags": [],
+        "total_size_bytes": 14987525190,
+        "total_size_gb": 13.958220547065139,
+        "total_size_mb": 14293.217840194702,
+        "total_size_tb": 0.0136310747529933
+    },
+    {
+        "image_count": 32,
+        "lifecycle_policy": null,
+        "name": "applyzer",
+        "tags": [],
+        "total_size_bytes": 13984927424,
+        "total_size_gb": 13.024478614330292,
+        "total_size_mb": 13337.066101074219,
+        "total_size_tb": 0.012719217396806926
+    },
+    {
+        "image_count": 33,
+        "lifecycle_policy": null,
+        "name": "codeclimate-to-bigquery",
+        "tags": [],
+        "total_size_bytes": 13739292299,
+        "total_size_gb": 12.795713077299297,
+        "total_size_mb": 13102.81019115448,
+        "total_size_tb": 0.012495813552050095
+    },
+    {
+        "image_count": 30,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "geppetto",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 12596889359,
+        "total_size_gb": 11.731767429970205,
+        "total_size_mb": 12013.32984828949,
+        "total_size_tb": 0.011456804130830278
+    },
+    {
+        "image_count": 74,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "at-notifications",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 9653353302,
+        "total_size_gb": 8.990385850891471,
+        "total_size_mb": 9206.155111312866,
+        "total_size_tb": 0.008779673682511202
+    },
+    {
+        "image_count": 40,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "data_repo_template",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 8596776830,
+        "total_size_gb": 8.006372330710292,
+        "total_size_mb": 8198.525266647339,
+        "total_size_tb": 0.00781872297920927
+    },
+    {
+        "image_count": 16,
+        "lifecycle_policy": null,
+        "name": "polylines-to-bigquery-python",
+        "tags": [],
+        "total_size_bytes": 8125418550,
+        "total_size_gb": 7.567385723814368,
+        "total_size_mb": 7749.002981185913,
+        "total_size_tb": 0.007390025120912469
+    },
+    {
+        "image_count": 3,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "osm-to-mapbox-and-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 4807592725,
+        "total_size_gb": 4.477419634349644,
+        "total_size_mb": 4584.877705574036,
+        "total_size_tb": 0.004372480111669574
+    },
+    {
+        "image_count": 6,
+        "lifecycle_policy": null,
+        "name": "video-recorder-service",
+        "tags": [],
+        "total_size_bytes": 4494927488,
+        "total_size_gb": 4.186227440834045,
+        "total_size_mb": 4286.6968994140625,
+        "total_size_tb": 0.0040881127351894975
+    },
+    {
+        "image_count": 12,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "rag-reviews",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 3774941391,
+        "total_size_gb": 3.5156881352886558,
+        "total_size_mb": 3600.0646505355835,
+        "total_size_tb": 0.003433289194617828
+    },
+    {
+        "image_count": 19,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "polylines-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 3247984610,
+        "total_size_gb": 3.024921389296651,
+        "total_size_mb": 3097.5195026397705,
+        "total_size_tb": 0.0029540247942350106
+    },
+    {
+        "image_count": 10,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "braze-api-exports",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 2797936732,
+        "total_size_gb": 2.605781640857458,
+        "total_size_mb": 2668.320400238037,
+        "total_size_tb": 0.0025447086336498614
+    },
+    {
+        "image_count": 6,
+        "lifecycle_policy": null,
+        "name": "rails-base",
+        "tags": [],
+        "total_size_bytes": 2550072259,
+        "total_size_gb": 2.3749398617073894,
+        "total_size_mb": 2431.9384183883667,
+        "total_size_tb": 0.0023192772086986224
+    },
+    {
+        "image_count": 15,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "atlantis-terragrunt",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 2530918654,
+        "total_size_gb": 2.3571016769856215,
+        "total_size_mb": 2413.6721172332764,
+        "total_size_tb": 0.002301857106431271
+    },
+    {
+        "image_count": 10,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "semrush-api",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 2350362112,
+        "total_size_gb": 2.1889452934265137,
+        "total_size_mb": 2241.47998046875,
+        "total_size_tb": 0.0021376418881118298
+    },
+    {
+        "image_count": 1,
+        "lifecycle_policy": null,
+        "name": "github/super-linter/super-linter",
+        "tags": [],
+        "total_size_bytes": 2327600386,
+        "total_size_gb": 2.1677467841655016,
+        "total_size_mb": 2219.7727069854736,
+        "total_size_tb": 0.0021169402189116227
+    },
+    {
+        "image_count": 7,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "photo-tagging",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 2320336169,
+        "total_size_gb": 2.160981454886496,
+        "total_size_mb": 2212.845009803772,
+        "total_size_tb": 0.002110333452037594
+    },
+    {
+        "image_count": 7,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "review-embeddings",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 1186000938,
+        "total_size_gb": 1.1045494470745325,
+        "total_size_mb": 1131.0586338043213,
+        "total_size_tb": 0.0010786615694087232
+    },
+    {
+        "image_count": 3,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "openexchangerates-export",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 697327886,
+        "total_size_gb": 0.6494372021406889,
+        "total_size_mb": 665.0236949920654,
+        "total_size_tb": 0.0006342160177155165
+    },
+    {
+        "image_count": 11,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "lambda-pagerduty-oncall",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 541640497,
+        "total_size_gb": 0.5044420221820474,
+        "total_size_mb": 516.5486307144165,
+        "total_size_tb": 0.0004926191622871556
+    },
+    {
+        "image_count": 2,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "amplitude-backfill",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 500470076,
+        "total_size_gb": 0.4660990796983242,
+        "total_size_mb": 477.285457611084,
+        "total_size_tb": 0.00045517488251789473
+    },
+    {
+        "image_count": 2,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "apptentive-exports",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 489222209,
+        "total_size_gb": 0.4556236872449517,
+        "total_size_mb": 466.55865573883057,
+        "total_size_tb": 0.00044494500707514817
+    },
+    {
+        "image_count": 24,
+        "lifecycle_policy": null,
+        "name": "direct_install_redirect",
+        "tags": [],
+        "total_size_bytes": 460337339,
+        "total_size_gb": 0.42872255574911833,
+        "total_size_mb": 439.01189708709717,
+        "total_size_tb": 0.00041867437084874837
+    },
+    {
+        "image_count": 22,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "webdev-nginx",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 409673975,
+        "total_size_gb": 0.3815386211499572,
+        "total_size_mb": 390.69554805755615,
+        "total_size_tb": 0.00037259630971675506
+    },
+    {
+        "image_count": 2,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "awin-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 339200192,
+        "total_size_gb": 0.31590479612350464,
+        "total_size_mb": 323.48651123046875,
+        "total_size_tb": 0.00030850077746436
+    },
+    {
+        "image_count": 1,
+        "lifecycle_policy": null,
+        "name": "review-embeddings-bq-backfill",
+        "tags": [],
+        "total_size_bytes": 328340420,
+        "total_size_gb": 0.30579084530472755,
+        "total_size_mb": 313.129825592041,
+        "total_size_tb": 0.000298623872367898
+    },
+    {
+        "image_count": 2,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "osm-to-mapbox",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 258644416,
+        "total_size_gb": 0.24088138341903687,
+        "total_size_mb": 246.66253662109375,
+        "total_size_tb": 0.0002352357259951532
+    },
+    {
+        "image_count": 7,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "nginx-poc",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 255011569,
+        "total_size_gb": 0.23749803099781275,
+        "total_size_mb": 243.19798374176025,
+        "total_size_tb": 0.0002319316708963015
+    },
+    {
+        "image_count": 1,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "elev-service",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 223334232,
+        "total_size_gb": 0.2079962119460106,
+        "total_size_mb": 212.98812103271484,
+        "total_size_tb": 0.00020312130072852597
+    },
+    {
+        "image_count": 3,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "npm-proxy-cache",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 70544119,
+        "total_size_gb": 0.0656993305310607,
+        "total_size_mb": 67.27611446380615,
+        "total_size_tb": 6.415950247173896e-05
+    },
+    {
+        "image_count": 1,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "appsflyer-datalocker-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 52611726,
+        "total_size_gb": 0.04899848811328411,
+        "total_size_mb": 50.17445182800293,
+        "total_size_tb": 4.7850086048129015e-05
+    },
+    {
+        "image_count": 1,
+        "lifecycle_policy": null,
+        "name": "alpine",
+        "tags": [],
+        "total_size_bytes": 3349202,
+        "total_size_gb": 0.00311918742954731,
+        "total_size_mb": 3.1940479278564453,
+        "total_size_tb": 3.046081474167295e-06
     },
     {
         "image_count": 0,
@@ -25,25 +2508,1198 @@
                 "action": {
                     "type": "expire"
                 },
-                "description": "remove alpha images",
+                "description": "limit to 8k images",
                 "rulePriority": 1,
                 "selection": {
-                    "countNumber": 1,
-                    "countType": "sinceImagePushed",
-                    "countUnit": "days",
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
                     "tagStatus": "any"
                 }
             }
         ],
-        "name": "test",
+        "name": "mugen-profile",
         "tags": [
             {
-                "Key": "name",
-                "Value": "test-repo"
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
             },
             {
-                "Key": "env",
-                "Value": "dev"
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-careers",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-guides-landing",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-admin",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-guides-cms",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-trail",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-location-app-router",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-gift",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-about",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-portal",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-geo-contribute",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-pinocchio",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-identity",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-guide",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-location",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-affiliates",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-update",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "ga-to-bigquery",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": null,
+        "name": "tmp-polylines-to-bigquery",
+        "tags": [],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-plus",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-live-share",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-community",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-trail-app-router",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
+            }
+        ],
+        "total_size_bytes": 0,
+        "total_size_gb": 0.0,
+        "total_size_mb": 0.0,
+        "total_size_tb": 0.0
+    },
+    {
+        "image_count": 0,
+        "lifecycle_policy": [
+            {
+                "action": {
+                    "type": "expire"
+                },
+                "description": "limit to 8k images",
+                "rulePriority": 1,
+                "selection": {
+                    "countNumber": 8000,
+                    "countType": "imageCountMoreThan",
+                    "tagStatus": "any"
+                }
+            }
+        ],
+        "name": "mugen-press",
+        "tags": [
+            {
+                "Key": "VantaDescription",
+                "Value": "ecr_repos"
+            },
+            {
+                "Key": "Terraform",
+                "Value": "True"
+            },
+            {
+                "Key": "VantaOwner",
+                "Value": "DevOps"
+            },
+            {
+                "Key": "VantaNonProd",
+                "Value": "true"
+            },
+            {
+                "Key": "Environment",
+                "Value": "alpha"
+            },
+            {
+                "Key": "TerraformDir",
+                "Value": "alpha/us-west-2/ecr_repos"
+            },
+            {
+                "Key": "TerraformRepo",
+                "Value": "terraform-infra"
             }
         ],
         "total_size_bytes": 0,
