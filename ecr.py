@@ -3,6 +3,8 @@ import json
 import csv
 import concurrent.futures
 from tqdm import tqdm
+from botocore.config import Config
+import argparse
 
 print('''                                 
  .-----.----.----.                 
@@ -19,6 +21,19 @@ print('''
             |__|                   
                                     
 ''')
+
+def parse_arguments():
+    """
+    Parse cmd line arguments.
+    :return: args
+    """
+    global args
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--region",
+                        help="AWS region")
+    args = parser.parse_args()
+    return args
 
 def get_repository_names(client):
     paginator = client.get_paginator('describe_repositories')
@@ -90,8 +105,12 @@ def get_tags(client, repository_name, account_id):
     return response.get('tags', [])
 
 def main():
-    client = boto3.client('ecr')
-    sts_client = boto3.client("sts")
+    args = parse_arguments()
+    my_config = Config(
+        region_name = args.region,
+    )
+    client = boto3.client('ecr', config=my_config)
+    sts_client = boto3.client("sts", config=my_config)
 
     account_id = get_account_id(sts_client)
     repository_names = get_repository_names(client)
